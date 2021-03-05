@@ -41,7 +41,7 @@ dev.button_status() # return status of all buttons
 dev.toggle_button([3, 4]) # virtually press buttons 3 and 4
 dev.hint() # return button that yields best improvement (or -1) 
 >>> 9
-dev.set_button_status(buttons = [6,9,10]) # sets buttons 6 ,9 ,10 to 1
+dev.set_buttons_status(buttons = [6,9,10]) # sets buttons 6 ,9 ,10 to 1
 Q = dev.get_matrix_parameters() # returns Parameter Matrix in Arduino
 dev.solve(delay=500)
 dev.reset()
