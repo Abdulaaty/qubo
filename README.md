@@ -20,7 +20,9 @@ Python module for interacting with a demonstrator equipped with 20 buttons conne
 ### Visualizer Mode (Interactive game mode)
 1- Connect Arduino to the PC   
 2- Run `visualizer.py` 
+3- You can control the visualizer by the demonstrator or the visualizer itslef by clicking on the points
 
+![alt text](https://github.com/Abdulaaty/qubo/blob/main/images/visualizer_screenshot.png?raw=true)
 
 
 
