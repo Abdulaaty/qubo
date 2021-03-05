@@ -24,7 +24,45 @@ Python module for interacting with a demonstrator equipped with 20 buttons conne
 
 <img src="https://github.com/Abdulaaty/qubo/blob/main/images/visualizer_screenshot.png" width="500" height="334">
 
+## Examples
+The `qubodemo.py` can be used independently (e.g. for any new visualizer) 
 
+```python 
+import numpy as np
+from qubodemo import QUBODemonstrator
+
+dev = QUBODemonstrator('COM4')  # COM4 is the my port for Adruino, change it to your port
+params = np.random.randint(-2**15, 2**15-1, size=210)
+dev.load_parameters(params)
+dev.button_status(buttons=[0, 4, 19]) # return status of buttons 0, 4 and 19
+>>> [0, 1, 1]
+dev.button_status() # return status of all buttons
+>>> [1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1]
+dev.toggle_button([3, 4]) # virtually press buttons 3 and 4
+dev.hint() # return button that yields best improvement (or -1) 
+>>> 9
+dev.set_button_status(buttons = [6,9,10]) # sets buttons 6 ,9 ,10 to 1
+Q = dev.get_matrix_parameters() # returns Parameter Matrix in Arduino
+dev.solve(delay=500)
+dev.reset()
+
+'''
+for visualizer
+'''
+
+vis_running = True
+while vis_running:
+  if buffer_is_not_empty():
+    pressed_button = dev.ser.readline()
+    # do something in your visualizer
+  if Terminating_condition_reached: 
+    vis_running = False
+
+dev.close()
+
+
+
+```
 
 
 
