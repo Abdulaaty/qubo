@@ -3,18 +3,18 @@ Python module for interacting with a demonstrator equipped with 20 buttons conne
 
 
 ## Installation
-1- Download this repository
-2- Install needed libraries: `pip install serial pygame numpy` 
+1- Download this repository  
+2- Install needed libraries: `pip install serial pygame numpy`   
 
 
 
 ## Usage 
 ### Control Mode 
-1- Connect Arduino to the PC 
-2- Run `qubodemo.py`
-3- You can control the arduino from the terminal by sending the availble commands from terminal 
+1- Connect Arduino to the PC   
+2- Run `qubodemo.py`  
+3- You can control the arduino from the terminal by sending the availble commands from terminal   
 ### Visualizer Mode (Interactive game mode)
-1- Connect Arduino to the PC 
+1- Connect Arduino to the PC   
 2- Run `visualizer.py` 
 
 
