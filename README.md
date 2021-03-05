@@ -13,6 +13,8 @@ Python module for interacting with a demonstrator equipped with 20 buttons conne
 1- Connect Arduino to the PC   
 2- Run `qubodemo.py`  
 3- You can control the arduino from the terminal by sending the availble commands from terminal  
+  
+  
 ![alt text](https://github.com/Abdulaaty/qubo/blob/main/images/cmd_screenshot.png?raw=true)
 
 ### Visualizer Mode (Interactive game mode)
