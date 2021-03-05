@@ -22,7 +22,7 @@
   
   C ==> Reserved for ack. of cost function values 
   
-  
+   
    Functions Guide: 
     format_number           : reformat the number to 2-byte-big-endian number to be read by Arduino
     solve                   : solves the problem automatically using input delay and number of iterations 
