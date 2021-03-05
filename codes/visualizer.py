@@ -26,7 +26,6 @@ from qubodemo import QUBODemonstrator
 
 
 
-
 # define limits of pygame window
 size_x = 1080
 size_y = 720
