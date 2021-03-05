@@ -49,7 +49,7 @@ dev.close()
 ```
 
 
-### rated loop for visualizer
+### Rated loop for visualizer
 ```python 
 import time
 vis_running = True
