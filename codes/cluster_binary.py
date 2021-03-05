@@ -1,4 +1,13 @@
-
+"""
+    /*
+    ======================================================
+  Created: Sascha Mücke
+  Edited: Omar Abdulaaty - March 2021
+  omar.abdulaaty@tu-dortmund.de
+  TU Dortmund LS8 
+    ======================================================
+    */
+"""    
 
 import numpy        as np
 import numpy.random as npr
