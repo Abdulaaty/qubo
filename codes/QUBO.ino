@@ -1,6 +1,6 @@
 /*
   QUBO-P - 20 Buttons Version with RGB LED and send toggle information
- 
+
  
   Omar Abdulaaty - May 2020
   omar.abdulaaty@tu-dortmund.de
