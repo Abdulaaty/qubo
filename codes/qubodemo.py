@@ -31,7 +31,7 @@
     reset                   : resets the problem
     close                   : closes the serial channel
     hint                    : blinks a hint
-    set_button_status       : sets the selected buttons to 1, sets all if nothing is passed
+    set_buttons_status       : sets the selected buttons to 1, sets all if nothing is passed
     solve_qubo              : return the best_x , best_value, worst_value for a passed Q (param matrix)
     get_matrix_parameters   : returns the current parameters matrix in Arduino
     load_parameters         : load parameters to the arduino
