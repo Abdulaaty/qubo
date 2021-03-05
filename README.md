@@ -22,7 +22,7 @@ Python module for interacting with a demonstrator equipped with 20 buttons conne
 2- Run `visualizer.py`   
 3- You can control the visualizer by the demonstrator or the visualizer itslef by clicking on the points  
 
-<img src="https://github.com/Abdulaaty/qubo/blob/main/images/visualizer_screenshot.png" width="100" height="100">
+<img src="https://github.com/Abdulaaty/qubo/blob/main/images/visualizer_screenshot.png" width="800" height="534">
 
 
 
