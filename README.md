@@ -3,7 +3,7 @@ Python module for interacting with a demonstrator equipped with 20 buttons conne
 
 
 ## Installation
-1- Download this repository  
+1- clone this repository  
 2- Install needed libraries: `pip install serial pygame numpy`   
 
 
